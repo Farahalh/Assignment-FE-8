@@ -13,14 +13,128 @@
     />
 
     <link rel="stylesheet" href="./style.css" />
-    
   </head>
   <body>
-    <nav></nav>
-    <container>
-      <header></header>
-      <main></main>
-      <footer></footer>
-    </container>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Coffee Party</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul
+            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+            style="--bs-scroll-height: 100px"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About Us
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Company</a></li>
+                <li><a class="dropdown-item" href="#">Contact</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container m-5 p-3">
+      <header>
+        <div class="row gap-1">
+          <div class="fika col p-5">
+            
+            <h3 class="">Fika for Corporate</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
+              rerum accusantium dolore, sint enim error aut eveniet voluptate
+              officia sapiente soluta nisi reiciendis eum veritatis itaque
+              debitis illum dolorem eos.
+            </p>
+            <button type="button" class="btn btn-light">
+              Book a meeting
+            </button>
+          </div>
+
+          <div class="great-coffee col p-5">
+            <h3 class="">Great Coffee</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Similique ipsam sit nemo iusto pariatur blanditiis quaerat
+              repellat optio facilis vel? In, corrupti ipsum quam a magni odio
+              dolor adipisci vel.
+            </p>
+            <button type="button" class="btn btn-outline-light">
+              Read more
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="row gap-1">
+          <div class="who col p-5 text-center">
+            <h3>Who are we?</h3>
+          </div>
+          <div class="what col p-5 text-center">
+            <h3>What do we do?</h3>
+          </div>
+          <div class="why col p-5 text-center">
+            <h3>Why us??</h3>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col text-center p-4 m-4">
+            <h2>Coffee Party, this is how we do it!</h2>
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        <p class="p-3">&copy; 2023 Coffee Party</p>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

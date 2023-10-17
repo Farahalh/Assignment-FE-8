@@ -1,0 +1,24 @@
+body {
+    background-color: #EDE7DB;
+}
+
+.fika {
+  background-color: #6d7e5e;
+}
+
+.great-coffee {
+  background-color: #9f6b39;
+}
+
+.who {
+  background-color: #1b383e;
+}
+
+.what {
+  background-image: url("./images/coffee_tree.jpg");
+  background-repeat: no-repeat;
+}
+
+.why {
+  background-color: #9d9ca2;
+}
