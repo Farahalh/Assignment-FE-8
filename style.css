@@ -1,24 +1,30 @@
 body {
-    background-color: #EDE7DB;
+  background-color: #ede7db;
+}
+
+.footer {
+  background-color: #f8f9fa;
 }
 
 .fika {
-  background-color: #6d7e5e;
+  background-color: #492F22;
 }
 
 .great-coffee {
-  background-color: #9f6b39;
-}
-
-.who {
-  background-color: #1b383e;
-}
-
-.what {
   background-image: url("./images/coffee_tree.jpg");
   background-repeat: no-repeat;
 }
 
-.why {
+.who {
   background-color: #9d9ca2;
 }
+
+.what {
+  background-image: url("./images/beans.jpeg");
+  background-repeat: no-repeat;
+}
+
+.why {
+  background-color: #9dc0b7;
+}
+

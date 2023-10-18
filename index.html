@@ -35,10 +35,12 @@
             style="--bs-scroll-height: 100px"
           >
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Products</a>
+              <a class="nav-link" href="./products.html">Products</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -51,11 +53,11 @@
                 About Us
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Company</a></li>
-                <li><a class="dropdown-item" href="#">Contact</a></li>
-                <li><hr class="dropdown-divider" /></li>
                 <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="./about.html">Company</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./about.html">Contact</a>
                 </li>
               </ul>
             </li>
@@ -75,25 +77,22 @@
       </div>
     </nav>
 
-    <div class="container m-5 p-3">
-      <header>
-        <div class="row gap-1">
-          <div class="fika col p-5">
-            
-            <h3 class="">Fika for Corporate</h3>
+    <div class="container-md m-5 p-3 text-white">
+      <div class="header">
+        <div class="row gap-3">
+          <div class="fika col p-5 rounded">
+            <h3>Fika for Corporate</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
               rerum accusantium dolore, sint enim error aut eveniet voluptate
               officia sapiente soluta nisi reiciendis eum veritatis itaque
               debitis illum dolorem eos.
             </p>
-            <button type="button" class="btn btn-light">
-              Book a meeting
-            </button>
+            <button type="button" class="btn btn-light">Book a meeting</button>
           </div>
 
-          <div class="great-coffee col p-5">
-            <h3 class="">Great Coffee</h3>
+          <div class="great-coffee col p-5 rounded">
+            <h3>Great Coffee</h3>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Similique ipsam sit nemo iusto pariatur blanditiis quaerat
@@ -105,32 +104,76 @@
             </button>
           </div>
         </div>
-      </header>
+      </div>
 
-      <main>
-        <div class="row gap-1">
-          <div class="who col p-5 text-center">
-            <h3>Who are we?</h3>
+      <div class="container-md p-3 text-white text-center">
+        <div class="main">
+          <div class="row gap-3">
+            <div class="who col p-5 rounded">
+              <p>
+                <a
+                  href="#"
+                  class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                  >Who are we?</a
+                >
+              </p>
+            </div>
+            <div class="what col p-5 rounded">
+              <p>
+                <a
+                  href="#"
+                  class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                  >What do we do?</a
+                >
+              </p>
+            </div>
+            <div class="why col p-5 rounded">
+              <p>
+                <a
+                  href="#"
+                  class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                  >Why us?</a
+                >
+              </p>
+            </div>
           </div>
-          <div class="what col p-5 text-center">
-            <h3>What do we do?</h3>
+
+          <div class="row">
+            <div class="col text-center p-4 m-4">
+              <h2 class="text-black">Coffee Party, this is how we do it!</h2>
+              <p class="text-black">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
+                repellendus repellat nobis reprehenderit provident, minus
+                dignissimos, ad optio eveniet corrupti consectetur facere neque
+                excepturi est, similique facilis recusandae quidem at.
+              </p>
+            </div>
           </div>
-          <div class="why col p-5 text-center">
-            <h3>Why us??</h3>
-          </div>
+
+          <h2 class="text-black">Our Coffee Machines</h2>
+          <marquee class="carousel">
+            <img src="./images/bambinoplus.jpg" alt="" width="300" />
+            <img src="./images/baristatouch.jpg" alt="" width="300" />
+            <img src="./images/gaggiaBrera.jpg" alt="" width="300" />
+            <img src="./images/nautilus.png" alt="" width="300" />
+            <img src="./images/ranciliosilviablack1.jpg" alt="" width="300" />
+            <img src="./images/ranciliosilviablack1.jpg" alt="" width="300" />
+            <img src="./images/sagebaristaexpress1.png" alt="" width="300" />
+          </marquee>
         </div>
-
-        <div class="row">
-          <div class="col text-center p-4 m-4">
-            <h2>Coffee Party, this is how we do it!</h2>
-          </div>
-        </div>
-      </main>
-
-      <footer>
-        <p class="p-3">&copy; 2023 Coffee Party</p>
-      </footer>
+      </div>
     </div>
+
+    <div class="footer text-center p-4">
+      <p class="">&copy; 2023 Coffee Party</p>
+      <p>
+        Open-source coded on GitHub by
+        <a href="https://github.com/Farahalh/Assignment-FE-8" target="_blank"
+          >Farah Alhaddad</a
+        >
+      </p>
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
